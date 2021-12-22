@@ -1,7 +1,7 @@
 import '../scss/style.scss';
 import Swiper from './swiper';
-import './brands-swiper';
-import './open-close burger-menu';
-import './open-close feedback';
-import './open-close feedback-call';
+import './brandsSwiper';
+import './openCloseBurgerMenu';
+import './openCloseFeedback';
+import './openCloseFeedbackCall';
 console.log('Works!');
