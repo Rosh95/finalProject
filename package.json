@@ -8,7 +8,6 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "7.5.5",
-    "@babel/node": "^7.16.0",
     "@babel/preset-env": "7.5.5",
     "autoprefixer": "9.6.1",
     "babel-loader": "8.0.6",
@@ -21,7 +20,6 @@
     "node-sass": "^4.14.1",
     "postcss-loader": "3.0.0",
     "sass-loader": "7.2.0",
-    "swiper": "^7.3.3",
     "webpack": "4.41.2",
     "webpack-cli": "3.3.7",
     "webpack-dev-server": "^3.11.0"
@@ -44,5 +42,8 @@
     "start": "webpack-dev-server --mode development --open",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "swiper": "^7.4.1"
   }
 }
