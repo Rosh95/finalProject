@@ -26,9 +26,9 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
-var btnText = document.querySelector('.brands__btn');
-var brandBoxHeight = document.querySelector('.brands__list');
-var arrowDirection = document.querySelector('.brands__arrow');
+let btnText = document.querySelector('.brands__btn');
+let brandBoxHeight = document.querySelector('.brands__list');
+let arrowDirection = document.querySelector('.brands__arrow');
 
 btnText.addEventListener('click', function () {
   if (btnText.textContent === 'Скрыть') {

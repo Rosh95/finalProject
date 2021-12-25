@@ -112,6 +112,7 @@
     height: 200px;
     overflow: hidden;
     padding: 24px;
+    padding-right: 0px;
   }
 
   .brands__list--height {
@@ -147,6 +148,7 @@
 @media (min-width: 1120px) {
   .brands__list {
     padding: 32px;
+    padding-right: 0px;
   }
   .brands__item {
     width: 240px;

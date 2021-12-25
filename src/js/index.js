@@ -4,4 +4,5 @@ import './brandsSwiper';
 import './openCloseBurgerMenu';
 import './openCloseFeedback';
 import './openCloseFeedbackCall';
+import './openCloseSercices';
 console.log('Works!');
